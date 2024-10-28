@@ -213,6 +213,30 @@
   .social-links a:hover {
     color: var(--secondary);
   }
+
+  /* Styles pour le footer */
+.campaign-footer {
+    background: linear-gradient(45deg, #0066CC, #00CCFF);
+    padding: 1.5em 0;
+    text-align: center;
+    color: #FFFFFF;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+}
+
+.campaign-footer p {
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+
+.campaign-footer a {
+    color: #FFFFFF;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.campaign-footer a:hover {
+    color: #FFD700;
+}
   
   @keyframes float {
     0% { transform: translateY(0px) rotate(0deg); }
@@ -539,8 +563,12 @@
         <p class="animate-text">Ensemble, nous pouvons créer une communauté dynamique, où chaque membre peut s'épanouir et développer ses compétences. Imaginons un avenir où l'algèbre et l'économie sont des outils puissants pour façonner notre monde.</p>
       </div>
     </section>
-<!--Ajouter un footer pour rediriger vers mon agence  -->
   </main>
+
+  <footer class="campaign-footer">
+    <p>By Weblaunch agency</p>
+    <p>Contact : <a href="+221 78 951 15 95">+221 78 951 15 95</a></p>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
   <script>
